@@ -1,0 +1,36 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated results and archives
+/outputs/
+/results_*/
+/dist/
+/build/
+/*.egg-info/
+/*.zip
+/Bayes-*.csv
+/IM-*.csv
+/NIM-*.csv
+/LUT-*.csv
+/KARMEN2-*.csv
+/Scenario_Runtime_Summary*.csv
+/Nesting_Diagnostics*.csv
+
+# Local backups and temporary review artifacts
+/code_original_backup.py
+/.release_backup_*/
+/.analysis_*/
+/.docx_qa_*/
+/.render_*/
+/.tmp_*/
+/.tmp_*.py
+*.bak
+*.tmp
+*~
